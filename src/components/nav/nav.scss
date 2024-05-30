@@ -1,0 +1,29 @@
+@import '../../scss/includes';
+@import '../../scss/extend';
+
+#Nav{
+    background-color: lightblue;
+    min-height: 6vh;
+    @extend .spacing;
+    border-radius: unset;
+
+    ul{
+        // @include grid(3);
+        @include flexible_grid();
+        place-items: center;
+        gap: 1rem;
+        li{
+            list-style: none;
+            a{
+                color: rgb(70, 70, 235);
+                font-size: 1.3rem;
+                font-weight: bold;
+                text-decoration: none;
+                &:hover {
+                    color: rgb(255, 255, 255);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

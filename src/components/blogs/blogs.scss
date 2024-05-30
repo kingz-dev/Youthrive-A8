@@ -1,0 +1,37 @@
+div #Blogs {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  h1 {
+    color: rgb(82, 82, 235);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #eaeaea;
+        border-radius: 4px;
+        transition: ease 0.3s;
+        &:hover {
+            background-color: #ddd;
+            }
+            a {
+                color: rgb(82, 82, 235);
+                font-size: 1rem;
+                font-weight: bold;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+
+        } 
+
+    } 
+  }   
+  
+}
