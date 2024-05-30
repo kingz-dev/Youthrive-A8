@@ -9,7 +9,7 @@ body {
   background-color: #f4f4f4;
   /* display: flex; */
   /* flex-direction: column; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .footer {
@@ -19,8 +19,8 @@ body {
   color: rgb(70, 70, 235);
   font-size: 1.2rem;
   font-weight: bold;
-  position: relative;
-  bottom: 0;
+  /* position: relative; */
+  /* bottom: 0; */
   width: 100%;
   margin-top: auto;
 }

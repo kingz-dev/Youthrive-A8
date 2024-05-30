@@ -1,8 +1,15 @@
 import React from 'react'
+import WindowVirtualize from '../windowVirtualize/WindowVirtualize'
+import './optimization.scss'
 
 const Optimization = () => {
   return (
-    <div>Optimization</div>
+    <div id='optimized'>
+      <h2>Optimized</h2>
+      <div id='list-content'>
+        <WindowVirtualize />
+      </div>
+    </div>
   )
 }
 
