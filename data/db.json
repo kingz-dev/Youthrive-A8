@@ -1,20 +1,28 @@
 {
-    "User": [
-      {
-        "id": "onyinanyakingsley1@gmail.com",
-        "fullName": "onyinanya kingsley",
-        "gender": "male",
-        "terms": true,
-        "password": "00000Ki&",
-        "role": "normal"
-      },
-      {
-        "id": "onyinanyakingsley2@gmail.com",
-        "fullName": "onyinanya kingsley",
-        "gender": "male",
-        "terms": true,
-        "password": "00000Ki&",
-        "role": "admin"
-      }
-    ]
-  }
+  "User": [
+    {
+      "id": "onyinanyakingsley1@gmail.com",
+      "fullName": "onyinanya kingsley",
+      "gender": "male",
+      "terms": true,
+      "password": "00000Ki&",
+      "role": "normal"
+    },
+    {
+      "id": "onyinanyakingsley2@gmail.com",
+      "fullName": "onyinanya kingsley",
+      "gender": "male",
+      "terms": true,
+      "password": "00000Ki&",
+      "role": "admin"
+    },
+    {
+      "id": "onyinanyakingsley4@gmail.com",
+      "role": "normal",
+      "gender": "male",
+      "fullName": "Onyinanya Kingsley ",
+      "password": "0000Ki&0",
+      "terms": true
+    }
+  ]
+}

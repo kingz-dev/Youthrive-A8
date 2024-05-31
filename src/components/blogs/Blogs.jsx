@@ -18,29 +18,29 @@ let redir = useNavigate();
     }
   }, [user.isLoggedIn]);
 
-// useEffect( () => {
-//   axios.get('https://jsonplaceholder.typicode.com/posts')
-//   .then(res => {
-//     console.log(res);
-//     setBlogs(res.data);
-//   })
-//   .catch(err => {
-//     console.log('Oop! error fetching the blogs', err);
-//   });
-// }, []);
+useEffect( () => {
+  axios.get('https://jsonplaceholder.typicode.com/posts')
+  .then(res => {
+    console.log(res);
+    setBlogs(res.data);
+  })
+  .catch(err => {
+    console.log('Oop! error fetching the blogs', err);
+  });
+}, []);
 
   return (
     <div>
       <Blognav />
       <div id='Blogs'>
       <h1>All blogs</h1>
-      {/* <ul>
+      <ul>
         {blogs.map(blog => (
         <li key={blog.id}>
           <Link to={`/blogs/${blog.id}`}>{blog.title}</Link>
         </li>
         ))}
-      </ul> */}
+      </ul>
       </div>
     </div>
   )
