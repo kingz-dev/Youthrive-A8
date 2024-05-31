@@ -14,6 +14,9 @@ function App() {
   let Path = useLocation();
   let noNav = ['/blogs', '/signin', '/signup', '/create'];
   
+  // optimization Techniques used
+// window Virtualization
+// Avoiding inline css
 
   return (
     <>
@@ -40,3 +43,5 @@ function App() {
 }
 
 export default App
+
+

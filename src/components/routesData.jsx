@@ -28,13 +28,13 @@ export const AppRoutes = [
     {
         id: id++,
         path: '/about',
-        component: <About />,
+        component: <About developer='Onyinanya Kingsley' />,
         navName: 'About',
     },
     {
         id: id++,
         path: '/portfolio',
-        component: <Portfolio />,
+        component: <Portfolio developer='Onyinanya Kingsley' />,
         navName: 'Portfolio',
     },
     {
@@ -71,7 +71,7 @@ export const AppRoutes = [
         id: id++,
         path: '/optimization',
         component: <Optimization />,
-        navName: 'Optimized',
+        navName: 'null',
     },
     {
         id: id++,

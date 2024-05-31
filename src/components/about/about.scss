@@ -9,3 +9,18 @@
     color: rgb(82, 82, 235);
   }
 }
+#optimized {
+  text-align: center;
+  margin: 10px auto;
+  color: blue;
+  p {
+      color: blue;
+      font-size: 1.25rem;
+  }
+  #list-content {
+      margin: 10px auto;
+      width: 80%;
+      min-height: 100vh;
+      border: 1px solid transparent;
+  }
+}
