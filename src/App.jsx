@@ -12,7 +12,7 @@ import { AppRoutes } from './components/routesData';
 
 function App() {
   let Path = useLocation();
-  let noNav = ['/blogs', '/blogDetails'];
+  let noNav = ['/blogs', '/signin', '/signup', '/create'];
   
 
   return (

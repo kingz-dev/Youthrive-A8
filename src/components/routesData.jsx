@@ -7,6 +7,8 @@ import Home from "./home/Home";
 import Optimization from "./optimization/Optimization";
 import Portfolio from "./portfolio/Portfolio";
 import { Signup } from "./signup/Signup";
+import Signin from "./signin/Signin";
+import Createblog from "./createBlog/Createblog";
 
 let id = 0;
 
@@ -45,13 +47,25 @@ export const AppRoutes = [
         id: id++,
         path: '/form',
         component: <Form />,
-        navName: 'Form',
+        navName: 'null',
     },
     {
         id: id++,
         path: '/signup',
         component: <Signup />,
         navName: 'Signup',
+    },
+    {
+        id: id++,
+        path: '/signin',
+        component: <Signin />,
+        navName: "null",
+    },
+    {
+        id: id++,
+        path: '/create',
+        component: <Createblog />,
+        navName: "null",
     },
     {
         id: id++,
